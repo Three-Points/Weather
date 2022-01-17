@@ -47,7 +47,7 @@ const config = {
       template: "src/index.html",
     }),
     new MiniCssExtractPlugin(),
-    new FaviconsWebpackPlugin("./src/images/icon.png"),
+    new FaviconsWebpackPlugin("./docs/logo.svg"),
   ],
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
